@@ -1,11 +1,11 @@
 import { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
-import { Menu, X, Building2, LogIn, UserPlus } from 'lucide-react';
+import { Menu, X, Building2 } from 'lucide-react';
 import { useAuth } from '../../contexts/AuthContext';
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const { user, profile, signOut } = useAuth();
+  const { user, signOut } = useAuth();
   const navigate = useNavigate();
 
   const handleSignOut = async () => {
@@ -18,8 +18,8 @@ export function Header() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
-            <Building2 className="h-8 w-8 text-blue-600" />
-            <span className="text-xl font-bold text-slate-900">PropertyPro</span>
+          <img src="/blue-logo.svg" alt="Blue Logo" className="h-16 w-16" />
+            <span className="text-xl font-bold text-slate-900">Ocean Management</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">
@@ -35,9 +35,7 @@ export function Header() {
             <Link to="/resources" className="text-slate-700 hover:text-blue-600 font-medium transition">
               Resources
             </Link>
-            <Link to="/blog" className="text-slate-700 hover:text-blue-600 font-medium transition">
-              Blog
-            </Link>
+        
             <Link to="/contact" className="text-slate-700 hover:text-blue-600 font-medium transition">
               Contact
             </Link>
@@ -62,18 +60,10 @@ export function Header() {
             ) : (
               <>
                 <Link
-                  to="/login"
-                  className="flex items-center space-x-2 px-4 py-2 text-sm font-medium text-slate-700 hover:text-blue-600 transition"
-                >
-                  <LogIn className="h-4 w-4" />
-                  <span>Sign In</span>
-                </Link>
-                <Link
-                  to="/register"
+                  to="/dashboard"
                   className="flex items-center space-x-2 px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
                 >
-                  <UserPlus className="h-4 w-4" />
-                  <span>Register</span>
+                  <span>Client Portal</span>
                 </Link>
               </>
             )}
@@ -118,13 +108,7 @@ export function Header() {
               >
                 Resources
               </Link>
-              <Link
-                to="/blog"
-                className="text-slate-700 hover:text-blue-600 font-medium transition"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Blog
-              </Link>
+            
               <Link
                 to="/contact"
                 className="text-slate-700 hover:text-blue-600 font-medium transition"
@@ -154,18 +138,11 @@ export function Header() {
               ) : (
                 <>
                   <Link
-                    to="/login"
-                    className="text-slate-700 hover:text-blue-600 font-medium transition"
-                    onClick={() => setIsMenuOpen(false)}
-                  >
-                    Sign In
-                  </Link>
-                  <Link
-                    to="/register"
+                    to="/dashboard"
                     className="inline-block px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition text-center"
                     onClick={() => setIsMenuOpen(false)}
                   >
-                    Register
+                    Client Portal
                   </Link>
                 </>
               )}

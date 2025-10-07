@@ -8,9 +8,7 @@ import { About } from './pages/About';
 import { Services } from './pages/Services';
 import { Contact } from './pages/Contact';
 import { Resources } from './pages/Resources';
-import { Blog } from './pages/Blog';
-import { Login } from './components/auth/Login';
-import { Register } from './components/auth/Register';
+// Auth pages removed per requirements
 import { Dashboard } from './pages/Dashboard';
 import { DashboardHome } from './pages/DashboardHome';
 import { Documents } from './pages/Documents';
@@ -24,8 +22,6 @@ function App() {
     <Router>
       <AuthProvider>
         <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
 
           <Route path="/" element={
             <>
@@ -67,13 +63,7 @@ function App() {
             </>
           } />
 
-          <Route path="/blog" element={
-            <>
-              <Header />
-              <Blog />
-              <Footer />
-            </>
-          } />
+          {/* Blog page removed */}
 
           <Route path="/dashboard" element={
             <ProtectedRoute>
