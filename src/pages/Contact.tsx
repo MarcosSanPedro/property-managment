@@ -212,8 +212,8 @@ export function Contact() {
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Office Location</h3>
                     <p className="text-slate-600">
-                      123 Property Lane<br />
-                      Miami, FL 33101
+                    2525 SW 27th Ave, Suite 101<br />
+                      Miami, FL 33133
                     </p>
                   </div>
                 </div>
@@ -224,8 +224,8 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Phone</h3>
-                    <p className="text-slate-600">(555) 123-4567</p>
-                    <p className="text-sm text-slate-500">Monday - Friday, 9am - 6pm</p>
+                    <a href="tel:(305) 496-2938" className="text-slate-600">(305) 496-2938</a>
+                    <p className="text-sm text-slate-500">Monday - Friday, 9am - 4pm</p>
                   </div>
                 </div>
 
@@ -235,7 +235,7 @@ export function Contact() {
                   </div>
                   <div>
                     <h3 className="font-semibold text-slate-900 mb-1">Email</h3>
-                    <p className="text-slate-600">info@propertypro.com</p>
+                    <p className="text-slate-600">info@oceanmnagement.net</p>
                     <p className="text-sm text-slate-500">We'll respond within 24 hours</p>
                   </div>
                 </div>
@@ -246,11 +246,11 @@ export function Contact() {
                 <div className="space-y-2 text-slate-600">
                   <div className="flex justify-between">
                     <span>Monday - Friday:</span>
-                    <span className="font-medium">9:00 AM - 6:00 PM</span>
+                    <span className="font-medium">9:00 AM - 4:00 PM</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Saturday:</span>
-                    <span className="font-medium">10:00 AM - 2:00 PM</span>
+                    <span className="font-medium">Closed</span>
                   </div>
                   <div className="flex justify-between">
                     <span>Sunday:</span>

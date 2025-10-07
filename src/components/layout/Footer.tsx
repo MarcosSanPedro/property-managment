@@ -9,7 +9,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Building2 className="h-8 w-8 text-blue-500" />
-              <span className="text-xl font-bold text-white">PropertyPro</span>
+              <span className="text-xl font-bold text-white">Ocean Management</span>
             </div>
             <p className="text-sm mb-4">
               Professional property and association management services you can trust.
@@ -46,11 +46,6 @@ export function Footer() {
                 </Link>
               </li>
               <li>
-                <Link to="/blog" className="hover:text-blue-500 transition">
-                  Blog
-                </Link>
-              </li>
-              <li>
                 <Link to="/contact" className="hover:text-blue-500 transition">
                   Contact Us
                 </Link>
@@ -62,24 +57,14 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-4">Client Portal</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link to="/login" className="hover:text-blue-500 transition">
-                  Homeowner Login
-                </Link>
-              </li>
-              <li>
-                <Link to="/register" className="hover:text-blue-500 transition">
-                  Register Account
-                </Link>
-              </li>
-              <li>
-                <Link to="/dashboard" className="hover:text-blue-500 transition">
-                  Dashboard
-                </Link>
-              </li>
-              <li>
-                <Link to="/contact" className="hover:text-blue-500 transition">
-                  Request Proposal
-                </Link>
+                <a
+                  href={import.meta.env.VITE_CLIENT_PORTAL_URL || 'https://portal.example.com'}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-blue-500 transition"
+                >
+                  Open Client Portal
+                </a>
               </li>
             </ul>
           </div>
@@ -89,7 +74,7 @@ export function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex items-start space-x-3">
                 <MapPin className="h-5 w-5 text-blue-500 flex-shrink-0 mt-0.5" />
-                <span>123 Property Lane<br />Miami, FL 33101</span>
+                <span>2525 SW 27th Ave, Suite 101<br />Miami, FL 33133</span>
               </li>
               <li className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-blue-500 flex-shrink-0" />
@@ -97,7 +82,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-500 flex-shrink-0" />
-                <span>info@propertypro.com</span>
+                <span>info@oceanmnagement.net</span>
               </li>
             </ul>
           </div>
@@ -105,7 +90,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-slate-800">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm">
-            <p>&copy; 2024 PropertyPro Management. All rights reserved.</p>
+            <p>&copy; 2025 Ocean Management. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="hover:text-blue-500 transition">
                 Privacy Policy

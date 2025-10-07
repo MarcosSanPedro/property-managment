@@ -39,7 +39,7 @@ export function Home() {
       name: 'Sarah Johnson',
       role: 'HOA Board President',
       property: 'Sunset Gardens',
-      quote: 'PropertyPro transformed how we manage our community. Their technology platform makes everything seamless.',
+      quote: 'Ocean Management transformed how we manage our community. Their technology platform makes everything seamless.',
       rating: 5
     },
     {
@@ -61,7 +61,7 @@ export function Home() {
   return (
     <div className="min-h-screen">
       <section className="relative bg-gradient-to-br from-slate-900 via-blue-900 to-slate-900 text-white">
-        <div className="absolute inset-0 bg-[url('https://images.pexels.com/photos/323780/pexels-photo-323780.jpeg?auto=compress&cs=tinysrgb&w=1920')] bg-cover bg-center opacity-20"></div>
+        <div className="absolute inset-0 bg-[url('/hero.webp')] bg-cover bg-center opacity-20"></div>
         <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-32">
           <div className="max-w-3xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight">
@@ -126,7 +126,7 @@ export function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-slate-900 mb-6">Why Choose PropertyPro?</h2>
+              <h2 className="text-4xl font-bold text-slate-900 mb-6">Why Choose Ocean Management?</h2>
               <p className="text-lg text-slate-600 mb-8">
                 With over 20 years of experience, we combine traditional values with modern technology to deliver exceptional property management services.
               </p>
@@ -148,7 +148,7 @@ export function Home() {
             </div>
             <div className="relative">
               <img
-                src="https://images.pexels.com/photos/1370704/pexels-photo-1370704.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src="/why-us.jpeg"
                 alt="Modern residential community"
                 className="rounded-2xl shadow-2xl"
               />

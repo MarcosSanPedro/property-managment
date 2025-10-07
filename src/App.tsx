@@ -16,6 +16,8 @@ import { Payments } from './pages/Payments';
 import { WorkOrders } from './pages/WorkOrders';
 import { ACCRequests } from './pages/ACCRequests';
 import { Profile } from './pages/Profile';
+import { Privacy } from './pages/Privacy';
+import { Terms } from './pages/Terms';
 
 function App() {
   return (
@@ -77,6 +79,22 @@ function App() {
             <Route path="acc-requests" element={<ACCRequests />} />
             <Route path="profile" element={<Profile />} />
           </Route>
+
+          <Route path="/privacy" element={
+            <>
+              <Header />
+              <Privacy />
+              <Footer />
+            </>
+          } />
+
+          <Route path="/terms" element={
+            <>
+              <Header />
+              <Terms />
+              <Footer />
+            </>
+          } />
         </Routes>
       </AuthProvider>
     </Router>

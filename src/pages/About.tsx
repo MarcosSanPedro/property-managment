@@ -41,7 +41,7 @@ export function About() {
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">Our Story</h2>
               <p className="text-lg text-slate-600 mb-4">
-                Founded in 2004, PropertyPro has grown from a small local operation to one of the region's most trusted property management companies. Our journey began with a simple mission: to provide exceptional service that puts community needs first.
+                Founded in 2004, Ocean Management has grown from a small local operation to one of the region's most trusted property management companies. Our journey began with a simple mission: to provide exceptional service that puts community needs first.
               </p>
               <p className="text-lg text-slate-600 mb-4">
                 Today, we manage over 500 properties, serving thousands of homeowners and residents. Our success is built on strong relationships, transparent communication, and a commitment to leveraging technology for better outcomes.
@@ -86,25 +86,6 @@ export function About() {
               <p className="text-slate-600">
                 To be the most trusted and innovative property management company in the region, setting new standards for service excellence and community engagement.
               </p>
-            </div>
-          </div>
-
-          <div>
-            <h2 className="text-4xl font-bold text-slate-900 mb-12 text-center">Meet Our Team</h2>
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-              {team.map((member, index) => (
-                <div key={index} className="text-center group">
-                  <div className="relative mb-4 overflow-hidden rounded-xl">
-                    <img
-                      src={member.image}
-                      alt={member.name}
-                      className="w-full h-64 object-cover group-hover:scale-105 transition duration-300"
-                    />
-                  </div>
-                  <h3 className="text-xl font-semibold text-slate-900 mb-1">{member.name}</h3>
-                  <p className="text-slate-600">{member.role}</p>
-                </div>
-              ))}
             </div>
           </div>
         </div>
