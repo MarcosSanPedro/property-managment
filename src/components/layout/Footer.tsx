@@ -15,13 +15,13 @@ export function Footer() {
               Professional property and association management services you can trust.
             </p>
             <div className="flex space-x-4">
-              <a href="#" className="text-slate-400 hover:text-blue-500 transition">
+              {/* <a href="#" className="text-slate-400 hover:text-blue-500 transition">
                 <Facebook className="h-5 w-5" />
               </a>
               <a href="#" className="text-slate-400 hover:text-blue-500 transition">
                 <Twitter className="h-5 w-5" />
-              </a>
-              <a href="#" className="text-slate-400 hover:text-blue-500 transition">
+              </a> */}
+              <a href="https://www.linkedin.com/in/evian-rodriguez-254950175/" target="_blank" className="text-slate-400 hover:text-blue-500 transition">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
