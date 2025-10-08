@@ -16,7 +16,7 @@ export function Terms() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white border border-slate-200 rounded-2xl shadow-sm p-6">
             <p className="text-slate-700">
-              These Terms govern your use of the Ocean Management website and services. By accessing or using the site,
+              These Terms govern your use of the Ocean Property Management website and services. By accessing or using the site,
               you agree to these Terms.
             </p>
           </div>
@@ -55,7 +55,7 @@ export function Terms() {
               <h2 className="text-xl font-semibold text-slate-900">Content and Intellectual Property</h2>
             </div>
             <p className="text-slate-700">
-              The site, including text, graphics, logos, and design elements, is owned by Ocean Management or our
+              The site, including text, graphics, logos, and design elements, is owned by Ocean Property Management or our
               licensors and protected by intellectual property laws. You may not reproduce, distribute, or create
               derivative works without permission.
             </p>
@@ -79,7 +79,7 @@ export function Terms() {
               <h2 className="text-xl font-semibold text-slate-900">Limitation of Liability</h2>
             </div>
             <p className="text-slate-700">
-              To the fullest extent permitted by law, Ocean Management is not liable for any indirect, incidental, special,
+              To the fullest extent permitted by law, Ocean Property Management is not liable for any indirect, incidental, special,
               consequential, or punitive damages, or any loss of profits or revenues, whether incurred directly or
               indirectly, resulting from your use of or inability to use the site.
             </p>
@@ -91,7 +91,7 @@ export function Terms() {
               <h2 className="text-xl font-semibold text-slate-900">Indemnification</h2>
             </div>
             <p className="text-slate-700">
-              You agree to indemnify and hold harmless Ocean Management and our employees, contractors, and partners from
+              You agree to indemnify and hold harmless Ocean Property Management and our employees, contractors, and partners from
               any claims, damages, liabilities, and expenses arising from your use of the site or violation of these Terms.
             </p>
           </div>
@@ -137,7 +137,7 @@ export function Terms() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-blue-600" />
-                  <a href="mailto:info@oceanmnagement.net" className="hover:text-blue-600">info@oceanmnagement.net</a>
+                  <a href="mailto:info@oceanmgmt.net" className="hover:text-blue-600">info@oceanmgmt.net</a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-blue-600" />

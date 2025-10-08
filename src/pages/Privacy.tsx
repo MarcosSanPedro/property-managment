@@ -16,7 +16,7 @@ export function Privacy() {
         <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="bg-white border border-slate-200 rounded-2xl shadow-sm p-6">
             <p className="text-slate-700">
-              This Privacy Policy describes how Ocean Management ("we", "us", or "our") collects,
+              This Privacy Policy describes how Ocean Property Management ("we", "us", or "our") collects,
               uses, discloses, and protects information when you visit our website and use our
               services.
             </p>
@@ -169,7 +169,7 @@ export function Privacy() {
                 </div>
                 <div className="flex items-center gap-3">
                   <Mail className="h-5 w-5 text-blue-600" />
-                  <a href="mailto:info@oceanmnagement.net" className="hover:text-blue-600">info@oceanmnagement.net</a>
+                  <a href="mailto:info@oceanmgmt.net" className="hover:text-blue-600">info@oceanmgmt.net</a>
                 </div>
                 <div className="flex items-center gap-3">
                   <Phone className="h-5 w-5 text-blue-600" />

@@ -41,7 +41,7 @@ export function About() {
             <div>
               <h2 className="text-4xl font-bold text-slate-900 mb-6">Our Story</h2>
               <p className="text-lg text-slate-600 mb-4">
-                Founded in 2004, Ocean Management has grown from a small local operation to one of the region's most trusted property management companies. Our journey began with a simple mission: to provide exceptional service that puts community needs first.
+                Founded in 2004, Ocean Property Management has grown from a small local operation to one of the region's most trusted property management companies. Our journey began with a simple mission: to provide exceptional service that puts community needs first.
               </p>
               <p className="text-lg text-slate-600 mb-4">
                 Today, we manage over 500 properties, serving thousands of homeowners and residents. Our success is built on strong relationships, transparent communication, and a commitment to leveraging technology for better outcomes.

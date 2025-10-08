@@ -19,7 +19,7 @@ export function Header() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex items-center space-x-2">
           <img src="/blue-logo.svg" alt="Blue Logo" className="h-16 w-16" />
-            <span className="text-xl font-bold text-slate-900">Ocean Management</span>
+            <span className="text-xl font-bold text-slate-900 hidden md:block">Ocean Property Management</span>
           </Link>
 
           <div className="hidden md:flex items-center space-x-8">

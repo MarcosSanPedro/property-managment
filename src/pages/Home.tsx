@@ -39,7 +39,7 @@ export function Home() {
       name: 'Sarah Johnson',
       role: 'HOA Board President',
       property: 'Sunset Gardens',
-      quote: 'Ocean Management transformed how we manage our community. Their technology platform makes everything seamless.',
+      quote: 'Ocean Property Management transformed how we manage our community. Their technology platform makes everything seamless.',
       rating: 5
     },
     {
@@ -126,7 +126,7 @@ export function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-4xl font-bold text-slate-900 mb-6">Why Choose Ocean Management?</h2>
+              <h2 className="text-4xl font-bold text-slate-900 mb-6">Why Choose Us?</h2>
               <p className="text-lg text-slate-600 mb-8">
                 With over 20 years of experience, we combine traditional values with modern technology to deliver exceptional property management services.
               </p>

@@ -1,7 +1,8 @@
 import { Link } from 'react-router-dom';
-import { Building2, Mail, Phone, MapPin, Facebook, Twitter, Linkedin } from 'lucide-react';
+import { Building2, Mail, Phone, MapPin, Linkedin } from 'lucide-react';
 
 export function Footer() {
+  const currentYear = new Date().getFullYear();
   return (
     <footer className="bg-slate-900 text-slate-300">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -9,7 +10,7 @@ export function Footer() {
           <div>
             <div className="flex items-center space-x-2 mb-4">
               <Building2 className="h-8 w-8 text-blue-500" />
-              <span className="text-xl font-bold text-white">Ocean Management</span>
+              <span className="text-xl font-bold text-white">Ocean Property Management</span>
             </div>
             <p className="text-sm mb-4">
               Professional property and association management services you can trust.
@@ -82,7 +83,7 @@ export function Footer() {
               </li>
               <li className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-blue-500 flex-shrink-0" />
-                <span>info@oceanmnagement.net</span>
+                <span>info@oceanmgmt.net</span>
               </li>
             </ul>
           </div>
@@ -90,7 +91,7 @@ export function Footer() {
 
         <div className="pt-8 border-t border-slate-800">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm">
-            <p>&copy; 2025 Ocean Management. All rights reserved.</p>
+            <p>&copy; {currentYear} Ocean Property Management Group, LLC. All rights reserved.</p>
             <div className="flex space-x-6 mt-4 md:mt-0">
               <Link to="/privacy" className="hover:text-blue-500 transition">
                 Privacy Policy
